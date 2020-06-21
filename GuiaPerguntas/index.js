@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 // Rotas do Sistema.
-app.get("/:nome/:lang", (request, response) => {
+/*app.get("/:nome/:lang", (request, response) => {
     // O comando abaixo renderiza o arquivo index.ejs que está na pasta views, 
     // caso possuir sub-diretório o mesmo deve ser informado no comando exemplo: usuario/perfil
     var nome = request.params.nome;
@@ -60,6 +60,7 @@ app.get("/:nome/:lang", (request, response) => {
         produtos: produtos
     });
 });
+*/
 
 // Rota Realizar pergunta
 app.get("/perguntar", (req, res) => {
